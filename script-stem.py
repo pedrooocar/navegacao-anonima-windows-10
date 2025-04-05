@@ -7,4 +7,4 @@ with Controller.from_port(port=9051) as controller:
     while True:
         controller.signal(Signal.NEWNYM)
         print("Novo IP requisitado")
-        time.sleep(5)  # Alterar IP a cada 5 segundos
+        time.sleep(5)  # Alterar IP a cada 60 segundos
